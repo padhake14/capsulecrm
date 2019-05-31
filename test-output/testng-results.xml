@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="196226" started-at="2019-05-30T03:12:24Z" finished-at="2019-05-30T03:15:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="196226" started-at="2019-05-30T03:12:24Z" finished-at="2019-05-30T03:15:40Z">
+      <class name="com.capsulecrm.testcases.AccountSettingTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.capsulecrm.testcases.AccountSettingTest@49993335]" name="setUp" is-config="true" duration-ms="20615" started-at="2019-05-30T03:12:24Z" finished-at="2019-05-30T03:12:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAccountStatementDetails()[pri:0, instance:com.capsulecrm.testcases.AccountSettingTest@49993335]" name="verifyAccountStatementDetails" duration-ms="9467" started-at="2019-05-30T03:12:45Z" finished-at="2019-05-30T03:12:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountStatementDetails -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.capsulecrm.testcases.AccountSettingTest@49993335]" name="setUp" is-config="true" duration-ms="16618" started-at="2019-05-30T03:12:54Z" finished-at="2019-05-30T03:13:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyIntegrationsDetails()[pri:0, instance:com.capsulecrm.testcases.AccountSettingTest@49993335]" name="verifyIntegrationsDetails" duration-ms="1335" started-at="2019-05-30T03:13:11Z" finished-at="2019-05-30T03:13:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIntegrationsDetails -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.capsulecrm.testcases.AccountSettingTest@49993335]" name="setUp" is-config="true" duration-ms="19365" started-at="2019-05-30T03:13:14Z" finished-at="2019-05-30T03:13:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyOpportunitiesDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.capsulecrm.testcases.AccountSettingTest@49993335]" name="verifyOpportunitiesDetails" duration-ms="8667" started-at="2019-05-30T03:13:33Z" data-provider="getOpportunitiesTestData" finished-at="2019-05-30T03:13:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tom7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[this is test data]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[81.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[82.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpportunitiesDetails -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.capsulecrm.testcases.AccountSettingTest@49993335]" name="setUp" is-config="true" duration-ms="26158" started-at="2019-05-30T03:13:42Z" finished-at="2019-05-30T03:14:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTagDetails(java.lang.String)[pri:0, instance:com.capsulecrm.testcases.AccountSettingTest@49993335]" name="verifyTagDetails" duration-ms="2329" started-at="2019-05-30T03:14:08Z" data-provider="getTagTestData" finished-at="2019-05-30T03:14:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tom]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTagDetails -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.capsulecrm.testcases.AccountSettingTest@49993335]" name="setUp" is-config="true" duration-ms="15370" started-at="2019-05-30T03:14:10Z" finished-at="2019-05-30T03:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTaskCategoriesDetails(java.lang.String)[pri:0, instance:com.capsulecrm.testcases.AccountSettingTest@49993335]" name="verifyTaskCategoriesDetails" duration-ms="2612" started-at="2019-05-30T03:14:26Z" data-provider="getTaskCategoriesTestData" finished-at="2019-05-30T03:14:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tom]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTaskCategoriesDetails -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.capsulecrm.testcases.AccountSettingTest@49993335]" name="setUp" is-config="true" duration-ms="21114" started-at="2019-05-30T03:14:28Z" finished-at="2019-05-30T03:14:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTracksDetails(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.capsulecrm.testcases.AccountSettingTest@49993335]" name="verifyTracksDetails" duration-ms="12346" started-at="2019-05-30T03:14:50Z" data-provider="getTracksTestData" finished-at="2019-05-30T03:15:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[this is test data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTracksDetails -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.capsulecrm.testcases.AccountSettingTest@49993335]" name="setUp" is-config="true" duration-ms="17639" started-at="2019-05-30T03:15:02Z" finished-at="2019-05-30T03:15:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyUserstDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.capsulecrm.testcases.AccountSettingTest@49993335]" name="verifyUserstDetails" duration-ms="20724" started-at="2019-05-30T03:15:20Z" data-provider="getUserTestData" finished-at="2019-05-30T03:15:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[peter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tom.peter@abc.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[tomabc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserstDetails -->
+      </class> <!-- com.capsulecrm.testcases.AccountSettingTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

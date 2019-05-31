@@ -1,0 +1,350 @@
+2019-05-31 09:04:53,869  INFO [main] WebEventListener:14 - Before navigating to: 'https://padhake.capsulecrm.com/'
+2019-05-31 09:05:09,781  INFO [main] WebEventListener:18 - Navigated to:'https://padhake.capsulecrm.com/'
+2019-05-31 09:05:09,814  INFO [main] PersonPage:63 - Trying to find Element By : By.id: login:usernameDecorate:username
+2019-05-31 09:05:09,850  INFO [main] PersonPage:67 - Found Element By : By.id: login:usernameDecorate:username
+2019-05-31 09:05:09,935  INFO [main] PersonPage:63 - Trying to find Element By : By.id: login:passwordDecorate:password
+2019-05-31 09:05:09,953  INFO [main] PersonPage:67 - Found Element By : By.id: login:passwordDecorate:password
+2019-05-31 09:05:10,008  INFO [main] PersonPage:63 - Trying to find Element By : By.id: login:login
+2019-05-31 09:05:10,025  INFO [main] PersonPage:67 - Found Element By : By.id: login:login
+2019-05-31 09:05:16,081  INFO [main] HomePage:63 - Trying to find Element By : By.id: ember18
+2019-05-31 09:05:46,164  INFO [main] HomePage:54 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"ember18"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-T59LTLF', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\parag\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60626}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: a36872a3bc0cd4a662b75c4d1349916f
+*** Element info: {Using=id, value=ember18}
+2019-05-31 09:05:50,577  INFO [main] WebEventListener:14 - Before navigating to: 'https://padhake.capsulecrm.com/'
+2019-05-31 09:05:57,801  INFO [main] WebEventListener:18 - Navigated to:'https://padhake.capsulecrm.com/'
+2019-05-31 09:05:57,805  INFO [main] CasePage:63 - Trying to find Element By : By.id: login:usernameDecorate:username
+2019-05-31 09:05:57,843  INFO [main] CasePage:67 - Found Element By : By.id: login:usernameDecorate:username
+2019-05-31 09:05:57,921  INFO [main] CasePage:63 - Trying to find Element By : By.id: login:passwordDecorate:password
+2019-05-31 09:05:57,939  INFO [main] CasePage:67 - Found Element By : By.id: login:passwordDecorate:password
+2019-05-31 09:05:58,001  INFO [main] CasePage:63 - Trying to find Element By : By.id: login:login
+2019-05-31 09:05:58,020  INFO [main] CasePage:67 - Found Element By : By.id: login:login
+2019-05-31 09:06:07,452  INFO [main] HomePage:63 - Trying to find Element By : By.id: ember24
+2019-05-31 09:06:07,476  INFO [main] HomePage:67 - Found Element By : By.id: ember24
+2019-05-31 09:06:07,477  INFO [main] HomePage:30 - Trying to click on: [[ChromeDriver: chrome on XP (56221cc35f901206288c618f9e422e22)] -> id: ember24]
+2019-05-31 09:06:07,610  INFO [main] HomePage:34 - Clicked on: [[ChromeDriver: chrome on XP (56221cc35f901206288c618f9e422e22)] -> id: ember24]
+2019-05-31 09:06:07,613  INFO [main] CasePage:63 - Trying to find Element By : By.linkText: Add Case
+2019-05-31 09:06:09,515  INFO [main] CasePage:67 - Found Element By : By.linkText: Add Case
+2019-05-31 09:06:09,515  INFO [main] CasePage:30 - Trying to click on: [[ChromeDriver: chrome on XP (56221cc35f901206288c618f9e422e22)] -> link text: Add Case]
+2019-05-31 09:06:15,742  INFO [main] CasePage:34 - Clicked on: [[ChromeDriver: chrome on XP (56221cc35f901206288c618f9e422e22)] -> link text: Add Case]
+2019-05-31 09:06:15,742  INFO [main] CasePage:63 - Trying to find Element By : By.id: partySearch
+2019-05-31 09:06:15,766  INFO [main] CasePage:67 - Found Element By : By.id: partySearch
+2019-05-31 09:06:15,835  INFO [main] CasePage:63 - Trying to find Element By : By.xpath: //div[@class="searchresult"]/ul/li
+2019-05-31 09:06:16,869  INFO [main] CasePage:67 - Found Element By : By.xpath: //div[@class="searchresult"]/ul/li
+2019-05-31 09:06:16,870  INFO [main] CasePage:30 - Trying to click on: [[ChromeDriver: chrome on XP (56221cc35f901206288c618f9e422e22)] -> xpath: //div[@class="searchresult"]/ul/li]
+2019-05-31 09:06:16,953  INFO [main] CasePage:34 - Clicked on: [[ChromeDriver: chrome on XP (56221cc35f901206288c618f9e422e22)] -> xpath: //div[@class="searchresult"]/ul/li]
+2019-05-31 09:06:16,953  INFO [main] CasePage:63 - Trying to find Element By : By.id: caseNameDecorate:name
+2019-05-31 09:06:16,974  INFO [main] CasePage:67 - Found Element By : By.id: caseNameDecorate:name
+2019-05-31 09:06:17,025  INFO [main] CasePage:63 - Trying to find Element By : By.id: caseDescriptionDecorate:description
+2019-05-31 09:06:17,055  INFO [main] CasePage:67 - Found Element By : By.id: caseDescriptionDecorate:description
+2019-05-31 09:06:17,145  INFO [main] CasePage:63 - Trying to find Element By : By.id: tagsDecorate:tagComboBox
+2019-05-31 09:06:17,161  INFO [main] CasePage:67 - Found Element By : By.id: tagsDecorate:tagComboBox
+2019-05-31 09:06:17,211  INFO [main] CasePage:63 - Trying to find Element By : By.id: tagsDecorate:j_id191
+2019-05-31 09:06:17,230  INFO [main] CasePage:67 - Found Element By : By.id: tagsDecorate:j_id191
+2019-05-31 09:06:17,231  INFO [main] CasePage:30 - Trying to click on: [[ChromeDriver: chrome on XP (56221cc35f901206288c618f9e422e22)] -> id: tagsDecorate:j_id191]
+2019-05-31 09:06:17,290  INFO [main] CasePage:34 - Clicked on: [[ChromeDriver: chrome on XP (56221cc35f901206288c618f9e422e22)] -> id: tagsDecorate:j_id191]
+2019-05-31 09:06:17,291  INFO [main] CasePage:63 - Trying to find Element By : By.id: save
+2019-05-31 09:06:17,312  INFO [main] CasePage:67 - Found Element By : By.id: save
+2019-05-31 09:06:17,312  INFO [main] CasePage:30 - Trying to click on: [[ChromeDriver: chrome on XP (56221cc35f901206288c618f9e422e22)] -> id: save]
+2019-05-31 09:06:21,154  INFO [main] CasePage:34 - Clicked on: [[ChromeDriver: chrome on XP (56221cc35f901206288c618f9e422e22)] -> id: save]
+2019-05-31 09:06:21,155  INFO [main] CasePage:63 - Trying to find Element By : By.xpath: //div[@class="kase-summary ember-view"]/child::div/div/span
+2019-05-31 09:06:21,355  INFO [main] CasePage:67 - Found Element By : By.xpath: //div[@class="kase-summary ember-view"]/child::div/div/span
+2019-05-31 09:06:25,905  INFO [main] WebEventListener:14 - Before navigating to: 'https://padhake.capsulecrm.com/'
+2019-05-31 09:06:35,251  INFO [main] WebEventListener:18 - Navigated to:'https://padhake.capsulecrm.com/'
+2019-05-31 09:06:35,271  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: login:usernameDecorate:username
+2019-05-31 09:06:35,302  INFO [main] AccountSettingPage:67 - Found Element By : By.id: login:usernameDecorate:username
+2019-05-31 09:06:35,369  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: login:passwordDecorate:password
+2019-05-31 09:06:35,387  INFO [main] AccountSettingPage:67 - Found Element By : By.id: login:passwordDecorate:password
+2019-05-31 09:06:35,446  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: login:login
+2019-05-31 09:06:35,462  INFO [main] AccountSettingPage:67 - Found Element By : By.id: login:login
+2019-05-31 09:06:40,997  INFO [main] HomePage:63 - Trying to find Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div
+2019-05-31 09:07:02,602  INFO [main] HomePage:67 - Found Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div
+2019-05-31 09:07:02,603  INFO [main] HomePage:30 - Trying to click on: [[ChromeDriver: chrome on XP (3eaeedadf0efc0afd1edf14cac20b2d5)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div]
+2019-05-31 09:07:02,680  INFO [main] HomePage:34 - Clicked on: [[ChromeDriver: chrome on XP (3eaeedadf0efc0afd1edf14cac20b2d5)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div]
+2019-05-31 09:07:02,680  INFO [main] HomePage:63 - Trying to find Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]
+2019-05-31 09:07:02,703  INFO [main] HomePage:67 - Found Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]
+2019-05-31 09:07:02,704  INFO [main] HomePage:30 - Trying to click on: [[ChromeDriver: chrome on XP (3eaeedadf0efc0afd1edf14cac20b2d5)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]]
+2019-05-31 09:07:10,245  INFO [main] HomePage:34 - Clicked on: [[ChromeDriver: chrome on XP (3eaeedadf0efc0afd1edf14cac20b2d5)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]]
+2019-05-31 09:07:10,249  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.linkText: Account
+2019-05-31 09:07:10,289  INFO [main] AccountSettingPage:67 - Found Element By : By.linkText: Account
+2019-05-31 09:07:10,290  INFO [main] AccountSettingPage:30 - Trying to click on: [[ChromeDriver: chrome on XP (3eaeedadf0efc0afd1edf14cac20b2d5)] -> link text: Account]
+2019-05-31 09:07:15,179  INFO [main] AccountSettingPage:34 - Clicked on: [[ChromeDriver: chrome on XP (3eaeedadf0efc0afd1edf14cac20b2d5)] -> link text: Account]
+2019-05-31 09:07:15,179  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //h1[@class='settings-page-header']
+2019-05-31 09:07:15,198  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //h1[@class='settings-page-header']
+2019-05-31 09:07:15,216  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.linkText: Invoices
+2019-05-31 09:07:15,242  INFO [main] AccountSettingPage:67 - Found Element By : By.linkText: Invoices
+2019-05-31 09:07:15,242  INFO [main] AccountSettingPage:30 - Trying to click on: [[ChromeDriver: chrome on XP (3eaeedadf0efc0afd1edf14cac20b2d5)] -> link text: Invoices]
+2019-05-31 09:07:20,529  INFO [main] AccountSettingPage:34 - Clicked on: [[ChromeDriver: chrome on XP (3eaeedadf0efc0afd1edf14cac20b2d5)] -> link text: Invoices]
+2019-05-31 09:07:20,530  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //header[@class='page-box-header']
+2019-05-31 09:07:21,861  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //header[@class='page-box-header']
+2019-05-31 09:07:21,882  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.linkText: Export
+2019-05-31 09:07:21,906  INFO [main] AccountSettingPage:67 - Found Element By : By.linkText: Export
+2019-05-31 09:07:21,906  INFO [main] AccountSettingPage:30 - Trying to click on: [[ChromeDriver: chrome on XP (3eaeedadf0efc0afd1edf14cac20b2d5)] -> link text: Export]
+2019-05-31 09:07:23,880  INFO [main] AccountSettingPage:34 - Clicked on: [[ChromeDriver: chrome on XP (3eaeedadf0efc0afd1edf14cac20b2d5)] -> link text: Export]
+2019-05-31 09:07:23,881  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //h1[@class='settings-page-header']
+2019-05-31 09:07:23,896  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //h1[@class='settings-page-header']
+2019-05-31 09:07:23,913  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.linkText: Appearance
+2019-05-31 09:07:23,940  INFO [main] AccountSettingPage:67 - Found Element By : By.linkText: Appearance
+2019-05-31 09:07:23,941  INFO [main] AccountSettingPage:30 - Trying to click on: [[ChromeDriver: chrome on XP (3eaeedadf0efc0afd1edf14cac20b2d5)] -> link text: Appearance]
+2019-05-31 09:07:26,307  INFO [main] AccountSettingPage:34 - Clicked on: [[ChromeDriver: chrome on XP (3eaeedadf0efc0afd1edf14cac20b2d5)] -> link text: Appearance]
+2019-05-31 09:07:26,308  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //h1[@class='settings-page-header']
+2019-05-31 09:07:26,327  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //h1[@class='settings-page-header']
+2019-05-31 09:07:26,352  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.linkText: Mail Drop Box
+2019-05-31 09:07:26,399  INFO [main] AccountSettingPage:67 - Found Element By : By.linkText: Mail Drop Box
+2019-05-31 09:07:26,399  INFO [main] AccountSettingPage:30 - Trying to click on: [[ChromeDriver: chrome on XP (3eaeedadf0efc0afd1edf14cac20b2d5)] -> link text: Mail Drop Box]
+2019-05-31 09:07:27,693  INFO [main] AccountSettingPage:34 - Clicked on: [[ChromeDriver: chrome on XP (3eaeedadf0efc0afd1edf14cac20b2d5)] -> link text: Mail Drop Box]
+2019-05-31 09:07:27,693  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //h2[@class='settings-page-header']
+2019-05-31 09:07:27,738  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //h2[@class='settings-page-header']
+2019-05-31 09:07:27,755  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.linkText: Custom Fields
+2019-05-31 09:07:27,785  INFO [main] AccountSettingPage:67 - Found Element By : By.linkText: Custom Fields
+2019-05-31 09:07:27,786  INFO [main] AccountSettingPage:30 - Trying to click on: [[ChromeDriver: chrome on XP (3eaeedadf0efc0afd1edf14cac20b2d5)] -> link text: Custom Fields]
+2019-05-31 09:07:31,700  INFO [main] AccountSettingPage:34 - Clicked on: [[ChromeDriver: chrome on XP (3eaeedadf0efc0afd1edf14cac20b2d5)] -> link text: Custom Fields]
+2019-05-31 09:07:31,701  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //h2[@class='settings-page-header']
+2019-05-31 09:07:31,721  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //h2[@class='settings-page-header']
+2019-05-31 09:07:31,750  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.linkText: Trash
+2019-05-31 09:07:31,785  INFO [main] AccountSettingPage:67 - Found Element By : By.linkText: Trash
+2019-05-31 09:07:31,785  INFO [main] AccountSettingPage:30 - Trying to click on: [[ChromeDriver: chrome on XP (3eaeedadf0efc0afd1edf14cac20b2d5)] -> link text: Trash]
+2019-05-31 09:07:34,748  INFO [main] AccountSettingPage:34 - Clicked on: [[ChromeDriver: chrome on XP (3eaeedadf0efc0afd1edf14cac20b2d5)] -> link text: Trash]
+2019-05-31 09:07:34,748  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //h2[@class='settings-page-header']
+2019-05-31 09:07:34,805  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //h2[@class='settings-page-header']
+2019-05-31 09:07:39,919  INFO [main] WebEventListener:14 - Before navigating to: 'https://padhake.capsulecrm.com/'
+2019-05-31 09:07:54,493  INFO [main] WebEventListener:18 - Navigated to:'https://padhake.capsulecrm.com/'
+2019-05-31 09:07:54,498  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: login:usernameDecorate:username
+2019-05-31 09:07:54,531  INFO [main] AccountSettingPage:67 - Found Element By : By.id: login:usernameDecorate:username
+2019-05-31 09:07:54,606  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: login:passwordDecorate:password
+2019-05-31 09:07:54,624  INFO [main] AccountSettingPage:67 - Found Element By : By.id: login:passwordDecorate:password
+2019-05-31 09:07:54,679  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: login:login
+2019-05-31 09:07:54,696  INFO [main] AccountSettingPage:67 - Found Element By : By.id: login:login
+2019-05-31 09:08:06,134  INFO [main] HomePage:63 - Trying to find Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div
+2019-05-31 09:08:06,172  INFO [main] HomePage:67 - Found Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div
+2019-05-31 09:08:06,173  INFO [main] HomePage:30 - Trying to click on: [[ChromeDriver: chrome on XP (5306bca63989389c512c61af32b97ce2)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div]
+2019-05-31 09:08:06,236  INFO [main] HomePage:34 - Clicked on: [[ChromeDriver: chrome on XP (5306bca63989389c512c61af32b97ce2)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div]
+2019-05-31 09:08:06,237  INFO [main] HomePage:63 - Trying to find Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]
+2019-05-31 09:08:06,265  INFO [main] HomePage:67 - Found Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]
+2019-05-31 09:08:06,266  INFO [main] HomePage:30 - Trying to click on: [[ChromeDriver: chrome on XP (5306bca63989389c512c61af32b97ce2)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]]
+2019-05-31 09:08:12,198  INFO [main] HomePage:34 - Clicked on: [[ChromeDriver: chrome on XP (5306bca63989389c512c61af32b97ce2)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]]
+2019-05-31 09:08:12,200  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //a[@href="/settings/users"]
+2019-05-31 09:08:12,220  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //a[@href="/settings/users"]
+2019-05-31 09:08:12,220  INFO [main] AccountSettingPage:30 - Trying to click on: [[ChromeDriver: chrome on XP (5306bca63989389c512c61af32b97ce2)] -> xpath: //a[@href="/settings/users"]]
+2019-05-31 09:08:14,933  INFO [main] AccountSettingPage:34 - Clicked on: [[ChromeDriver: chrome on XP (5306bca63989389c512c61af32b97ce2)] -> xpath: //a[@href="/settings/users"]]
+2019-05-31 09:08:14,933  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //a[@class='action btn-primary btn-primary-clear']
+2019-05-31 09:08:14,970  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //a[@class='action btn-primary btn-primary-clear']
+2019-05-31 09:08:14,971  INFO [main] AccountSettingPage:30 - Trying to click on: [[ChromeDriver: chrome on XP (5306bca63989389c512c61af32b97ce2)] -> xpath: //a[@class='action btn-primary btn-primary-clear']]
+2019-05-31 09:08:16,067  INFO [main] AccountSettingPage:34 - Clicked on: [[ChromeDriver: chrome on XP (5306bca63989389c512c61af32b97ce2)] -> xpath: //a[@class='action btn-primary btn-primary-clear']]
+2019-05-31 09:08:16,067  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: register:firstnameDecorate:firstName
+2019-05-31 09:08:16,096  INFO [main] AccountSettingPage:67 - Found Element By : By.id: register:firstnameDecorate:firstName
+2019-05-31 09:08:16,150  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: register:lastNameDecorate:lastName
+2019-05-31 09:08:16,167  INFO [main] AccountSettingPage:67 - Found Element By : By.id: register:lastNameDecorate:lastName
+2019-05-31 09:08:16,218  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: register:emailDecorate:email
+2019-05-31 09:08:16,232  INFO [main] AccountSettingPage:67 - Found Element By : By.id: register:emailDecorate:email
+2019-05-31 09:08:16,328  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: register:usernameDecorate:username
+2019-05-31 09:08:16,344  INFO [main] AccountSettingPage:67 - Found Element By : By.id: register:usernameDecorate:username
+2019-05-31 09:08:16,403  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: register:save
+2019-05-31 09:08:16,420  INFO [main] AccountSettingPage:67 - Found Element By : By.id: register:save
+2019-05-31 09:08:16,421  INFO [main] AccountSettingPage:30 - Trying to click on: [[ChromeDriver: chrome on XP (5306bca63989389c512c61af32b97ce2)] -> id: register:save]
+2019-05-31 09:08:19,123  INFO [main] AccountSettingPage:34 - Clicked on: [[ChromeDriver: chrome on XP (5306bca63989389c512c61af32b97ce2)] -> id: register:save]
+2019-05-31 09:08:19,124  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //h2[@class='settings-page-header']
+2019-05-31 09:08:19,156  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //h2[@class='settings-page-header']
+2019-05-31 09:08:19,173  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //td[contains(text(),'tomabc')]
+2019-05-31 09:08:19,187  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //td[contains(text(),'tomabc')]
+2019-05-31 09:08:24,104  INFO [main] WebEventListener:14 - Before navigating to: 'https://padhake.capsulecrm.com/'
+2019-05-31 09:08:35,083  INFO [main] WebEventListener:18 - Navigated to:'https://padhake.capsulecrm.com/'
+2019-05-31 09:08:35,086  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: login:usernameDecorate:username
+2019-05-31 09:08:35,106  INFO [main] AccountSettingPage:67 - Found Element By : By.id: login:usernameDecorate:username
+2019-05-31 09:08:35,169  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: login:passwordDecorate:password
+2019-05-31 09:08:35,187  INFO [main] AccountSettingPage:67 - Found Element By : By.id: login:passwordDecorate:password
+2019-05-31 09:08:35,243  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: login:login
+2019-05-31 09:08:35,260  INFO [main] AccountSettingPage:67 - Found Element By : By.id: login:login
+2019-05-31 09:08:48,969  INFO [main] HomePage:63 - Trying to find Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div
+2019-05-31 09:08:49,032  INFO [main] HomePage:67 - Found Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div
+2019-05-31 09:08:49,032  INFO [main] HomePage:30 - Trying to click on: [[ChromeDriver: chrome on XP (95ee3f74d2ead9e14b54cba19220518d)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div]
+2019-05-31 09:08:49,197  INFO [main] HomePage:34 - Clicked on: [[ChromeDriver: chrome on XP (95ee3f74d2ead9e14b54cba19220518d)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div]
+2019-05-31 09:08:49,198  INFO [main] HomePage:63 - Trying to find Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]
+2019-05-31 09:08:49,241  INFO [main] HomePage:67 - Found Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]
+2019-05-31 09:08:49,241  INFO [main] HomePage:30 - Trying to click on: [[ChromeDriver: chrome on XP (95ee3f74d2ead9e14b54cba19220518d)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]]
+2019-05-31 09:08:56,879  INFO [main] HomePage:34 - Clicked on: [[ChromeDriver: chrome on XP (95ee3f74d2ead9e14b54cba19220518d)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]]
+2019-05-31 09:08:56,881  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: (//a[contains(text(),'Opportunities')])[2]
+2019-05-31 09:08:56,899  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: (//a[contains(text(),'Opportunities')])[2]
+2019-05-31 09:08:56,899  INFO [main] AccountSettingPage:30 - Trying to click on: [[ChromeDriver: chrome on XP (95ee3f74d2ead9e14b54cba19220518d)] -> xpath: (//a[contains(text(),'Opportunities')])[2]]
+2019-05-31 09:09:05,113  INFO [main] AccountSettingPage:34 - Clicked on: [[ChromeDriver: chrome on XP (95ee3f74d2ead9e14b54cba19220518d)] -> xpath: (//a[contains(text(),'Opportunities')])[2]]
+2019-05-31 09:09:05,113  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //button[@class='btn-primary']
+2019-05-31 09:09:06,831  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //button[@class='btn-primary']
+2019-05-31 09:09:06,832  INFO [main] AccountSettingPage:30 - Trying to click on: [[ChromeDriver: chrome on XP (95ee3f74d2ead9e14b54cba19220518d)] -> xpath: //button[@class='btn-primary']]
+2019-05-31 09:09:06,956  INFO [main] AccountSettingPage:34 - Clicked on: [[ChromeDriver: chrome on XP (95ee3f74d2ead9e14b54cba19220518d)] -> xpath: //button[@class='btn-primary']]
+2019-05-31 09:09:06,956  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //input[@class='form-input-text milestone-modal-name']
+2019-05-31 09:09:06,977  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //input[@class='form-input-text milestone-modal-name']
+2019-05-31 09:09:07,048  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //textarea[@class='form-input-text milestone-modal-description']
+2019-05-31 09:09:07,063  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //textarea[@class='form-input-text milestone-modal-description']
+2019-05-31 09:09:07,245  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //input[@class='form-input-text milestone-modal-probability']
+2019-05-31 09:09:07,264  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //input[@class='form-input-text milestone-modal-probability']
+2019-05-31 09:09:07,335  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //input[@class='form-input-text milestone-modal-days-until-stale']
+2019-05-31 09:09:07,352  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //input[@class='form-input-text milestone-modal-days-until-stale']
+2019-05-31 09:09:07,406  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //button[@class="async-button ember-view btn-primary"]
+2019-05-31 09:09:07,429  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //button[@class="async-button ember-view btn-primary"]
+2019-05-31 09:09:07,429  INFO [main] AccountSettingPage:30 - Trying to click on: [[ChromeDriver: chrome on XP (95ee3f74d2ead9e14b54cba19220518d)] -> xpath: //button[@class="async-button ember-view btn-primary"]]
+2019-05-31 09:09:07,487  INFO [main] AccountSettingPage:34 - Clicked on: [[ChromeDriver: chrome on XP (95ee3f74d2ead9e14b54cba19220518d)] -> xpath: //button[@class="async-button ember-view btn-primary"]]
+2019-05-31 09:09:07,488  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //header[@class='page-box-header']
+2019-05-31 09:09:07,504  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //header[@class='page-box-header']
+2019-05-31 09:09:07,520  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //tr[@class="milestone-item"]/td//button[text()='tom10']
+2019-05-31 09:09:08,478  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //tr[@class="milestone-item"]/td//button[text()='tom10']
+2019-05-31 09:09:12,935  INFO [main] WebEventListener:14 - Before navigating to: 'https://padhake.capsulecrm.com/'
+2019-05-31 09:09:26,237  INFO [main] WebEventListener:18 - Navigated to:'https://padhake.capsulecrm.com/'
+2019-05-31 09:09:26,239  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: login:usernameDecorate:username
+2019-05-31 09:09:26,275  INFO [main] AccountSettingPage:67 - Found Element By : By.id: login:usernameDecorate:username
+2019-05-31 09:09:26,349  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: login:passwordDecorate:password
+2019-05-31 09:09:26,377  INFO [main] AccountSettingPage:67 - Found Element By : By.id: login:passwordDecorate:password
+2019-05-31 09:09:26,451  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: login:login
+2019-05-31 09:09:26,472  INFO [main] AccountSettingPage:67 - Found Element By : By.id: login:login
+2019-05-31 09:09:37,715  INFO [main] HomePage:63 - Trying to find Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div
+2019-05-31 09:09:37,733  INFO [main] HomePage:67 - Found Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div
+2019-05-31 09:09:37,734  INFO [main] HomePage:30 - Trying to click on: [[ChromeDriver: chrome on XP (6306369996ab6177600ede6d9ba9e029)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div]
+2019-05-31 09:09:37,800  INFO [main] HomePage:34 - Clicked on: [[ChromeDriver: chrome on XP (6306369996ab6177600ede6d9ba9e029)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div]
+2019-05-31 09:09:37,800  INFO [main] HomePage:63 - Trying to find Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]
+2019-05-31 09:09:37,821  INFO [main] HomePage:67 - Found Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]
+2019-05-31 09:09:37,821  INFO [main] HomePage:30 - Trying to click on: [[ChromeDriver: chrome on XP (6306369996ab6177600ede6d9ba9e029)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]]
+2019-05-31 09:09:44,457  INFO [main] HomePage:34 - Clicked on: [[ChromeDriver: chrome on XP (6306369996ab6177600ede6d9ba9e029)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]]
+2019-05-31 09:09:44,459  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.linkText: Tracks
+2019-05-31 09:09:44,504  INFO [main] AccountSettingPage:67 - Found Element By : By.linkText: Tracks
+2019-05-31 09:09:44,504  INFO [main] AccountSettingPage:30 - Trying to click on: [[ChromeDriver: chrome on XP (6306369996ab6177600ede6d9ba9e029)] -> link text: Tracks]
+2019-05-31 09:09:47,865  INFO [main] AccountSettingPage:34 - Clicked on: [[ChromeDriver: chrome on XP (6306369996ab6177600ede6d9ba9e029)] -> link text: Tracks]
+2019-05-31 09:09:47,865  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //a[@class='action btn-primary btn-primary-clear']
+2019-05-31 09:09:47,882  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //a[@class='action btn-primary btn-primary-clear']
+2019-05-31 09:09:47,883  INFO [main] AccountSettingPage:30 - Trying to click on: [[ChromeDriver: chrome on XP (6306369996ab6177600ede6d9ba9e029)] -> xpath: //a[@class='action btn-primary btn-primary-clear']]
+2019-05-31 09:09:51,116  INFO [main] AccountSettingPage:34 - Clicked on: [[ChromeDriver: chrome on XP (6306369996ab6177600ede6d9ba9e029)] -> xpath: //a[@class='action btn-primary btn-primary-clear']]
+2019-05-31 09:09:51,117  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: (//span[@class="input "]/input)[1]
+2019-05-31 09:09:51,145  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: (//span[@class="input "]/input)[1]
+2019-05-31 09:09:51,200  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: (//span[@class="input "]/input)[2]
+2019-05-31 09:09:51,216  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: (//span[@class="input "]/input)[2]
+2019-05-31 09:09:51,266  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: (//span[@class="input "]/input)[3]
+2019-05-31 09:09:51,284  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: (//span[@class="input "]/input)[3]
+2019-05-31 09:09:51,401  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //a[@class='btn-primary btn-clear singlesubmit']
+2019-05-31 09:09:51,416  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //a[@class='btn-primary btn-clear singlesubmit']
+2019-05-31 09:09:51,417  INFO [main] AccountSettingPage:30 - Trying to click on: [[ChromeDriver: chrome on XP (6306369996ab6177600ede6d9ba9e029)] -> xpath: //a[@class='btn-primary btn-clear singlesubmit']]
+2019-05-31 09:09:53,843  INFO [main] AccountSettingPage:34 - Clicked on: [[ChromeDriver: chrome on XP (6306369996ab6177600ede6d9ba9e029)] -> xpath: //a[@class='btn-primary btn-clear singlesubmit']]
+2019-05-31 09:09:53,844  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //h2[@class='settings-page-header']
+2019-05-31 09:09:53,886  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //h2[@class='settings-page-header']
+2019-05-31 09:09:53,912  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //table/tbody//tr//td/a[contains(text(),'tom')]
+2019-05-31 09:09:53,932  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //table/tbody//tr//td/a[contains(text(),'tom')]
+2019-05-31 09:09:58,485  INFO [main] WebEventListener:14 - Before navigating to: 'https://padhake.capsulecrm.com/'
+2019-05-31 09:10:10,318  INFO [main] WebEventListener:18 - Navigated to:'https://padhake.capsulecrm.com/'
+2019-05-31 09:10:10,323  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: login:usernameDecorate:username
+2019-05-31 09:10:10,353  INFO [main] AccountSettingPage:67 - Found Element By : By.id: login:usernameDecorate:username
+2019-05-31 09:10:10,409  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: login:passwordDecorate:password
+2019-05-31 09:10:10,427  INFO [main] AccountSettingPage:67 - Found Element By : By.id: login:passwordDecorate:password
+2019-05-31 09:10:10,499  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: login:login
+2019-05-31 09:10:10,517  INFO [main] AccountSettingPage:67 - Found Element By : By.id: login:login
+2019-05-31 09:10:19,153  INFO [main] HomePage:63 - Trying to find Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div
+2019-05-31 09:10:19,172  INFO [main] HomePage:67 - Found Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div
+2019-05-31 09:10:19,173  INFO [main] HomePage:30 - Trying to click on: [[ChromeDriver: chrome on XP (7153b495afea24614078195b03c80c7a)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div]
+2019-05-31 09:10:19,256  INFO [main] HomePage:34 - Clicked on: [[ChromeDriver: chrome on XP (7153b495afea24614078195b03c80c7a)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div]
+2019-05-31 09:10:19,256  INFO [main] HomePage:63 - Trying to find Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]
+2019-05-31 09:10:19,290  INFO [main] HomePage:67 - Found Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]
+2019-05-31 09:10:19,290  INFO [main] HomePage:30 - Trying to click on: [[ChromeDriver: chrome on XP (7153b495afea24614078195b03c80c7a)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]]
+2019-05-31 09:10:28,465  INFO [main] HomePage:34 - Clicked on: [[ChromeDriver: chrome on XP (7153b495afea24614078195b03c80c7a)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]]
+2019-05-31 09:10:28,466  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.linkText: Task Categories
+2019-05-31 09:10:28,500  INFO [main] AccountSettingPage:67 - Found Element By : By.linkText: Task Categories
+2019-05-31 09:10:28,500  INFO [main] AccountSettingPage:30 - Trying to click on: [[ChromeDriver: chrome on XP (7153b495afea24614078195b03c80c7a)] -> link text: Task Categories]
+2019-05-31 09:10:32,121  INFO [main] AccountSettingPage:34 - Clicked on: [[ChromeDriver: chrome on XP (7153b495afea24614078195b03c80c7a)] -> link text: Task Categories]
+2019-05-31 09:10:32,121  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.linkText: Add new Category
+2019-05-31 09:10:32,166  INFO [main] AccountSettingPage:67 - Found Element By : By.linkText: Add new Category
+2019-05-31 09:10:32,166  INFO [main] AccountSettingPage:30 - Trying to click on: [[ChromeDriver: chrome on XP (7153b495afea24614078195b03c80c7a)] -> link text: Add new Category]
+2019-05-31 09:10:32,248  INFO [main] AccountSettingPage:34 - Clicked on: [[ChromeDriver: chrome on XP (7153b495afea24614078195b03c80c7a)] -> link text: Add new Category]
+2019-05-31 09:10:32,273  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //input[@id='editCategoryForm:taskCategoryNameDecorate:taskCategoryName']
+2019-05-31 09:10:32,296  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //input[@id='editCategoryForm:taskCategoryNameDecorate:taskCategoryName']
+2019-05-31 09:10:32,812  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //input[@id='editCategoryForm:taskCategoryNameDecorate:taskCategoryName']
+2019-05-31 09:10:32,822  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //input[@id='editCategoryForm:taskCategoryNameDecorate:taskCategoryName']
+2019-05-31 09:10:33,330  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //input[@id='editCategoryForm:taskCategoryNameDecorate:taskCategoryName']
+2019-05-31 09:10:33,363  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //input[@id='editCategoryForm:taskCategoryNameDecorate:taskCategoryName']
+2019-05-31 09:10:33,410  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //input[@id='editCategoryForm:taskCategoryNameDecorate:taskCategoryName']
+2019-05-31 09:10:33,426  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //input[@id='editCategoryForm:taskCategoryNameDecorate:taskCategoryName']
+2019-05-31 09:10:33,527  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //input[@value="Save"]
+2019-05-31 09:10:33,544  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //input[@value="Save"]
+2019-05-31 09:10:33,544  INFO [main] AccountSettingPage:30 - Trying to click on: [[ChromeDriver: chrome on XP (7153b495afea24614078195b03c80c7a)] -> xpath: //input[@value="Save"]]
+2019-05-31 09:10:33,589  INFO [main] AccountSettingPage:34 - Clicked on: [[ChromeDriver: chrome on XP (7153b495afea24614078195b03c80c7a)] -> xpath: //input[@value="Save"]]
+2019-05-31 09:10:33,589  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //h2[@class='settings-page-header']
+2019-05-31 09:10:33,605  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //h2[@class='settings-page-header']
+2019-05-31 09:10:33,627  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //td[@class=" list-column-left"]//a[contains(text(),'tom')]
+2019-05-31 09:10:34,493  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //td[@class=" list-column-left"]//a[contains(text(),'tom')]
+2019-05-31 09:10:38,978  INFO [main] WebEventListener:14 - Before navigating to: 'https://padhake.capsulecrm.com/'
+2019-05-31 09:10:48,713  INFO [main] WebEventListener:18 - Navigated to:'https://padhake.capsulecrm.com/'
+2019-05-31 09:10:48,714  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: login:usernameDecorate:username
+2019-05-31 09:10:48,746  INFO [main] AccountSettingPage:67 - Found Element By : By.id: login:usernameDecorate:username
+2019-05-31 09:10:48,804  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: login:passwordDecorate:password
+2019-05-31 09:10:48,821  INFO [main] AccountSettingPage:67 - Found Element By : By.id: login:passwordDecorate:password
+2019-05-31 09:10:48,877  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: login:login
+2019-05-31 09:10:48,896  INFO [main] AccountSettingPage:67 - Found Element By : By.id: login:login
+2019-05-31 09:11:00,524  INFO [main] HomePage:63 - Trying to find Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div
+2019-05-31 09:11:00,552  INFO [main] HomePage:67 - Found Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div
+2019-05-31 09:11:00,552  INFO [main] HomePage:30 - Trying to click on: [[ChromeDriver: chrome on XP (3bb8c1faececd55e63a1ad11515fdf15)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div]
+2019-05-31 09:11:00,617  INFO [main] HomePage:34 - Clicked on: [[ChromeDriver: chrome on XP (3bb8c1faececd55e63a1ad11515fdf15)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div]
+2019-05-31 09:11:00,617  INFO [main] HomePage:63 - Trying to find Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]
+2019-05-31 09:11:00,636  INFO [main] HomePage:67 - Found Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]
+2019-05-31 09:11:00,637  INFO [main] HomePage:30 - Trying to click on: [[ChromeDriver: chrome on XP (3bb8c1faececd55e63a1ad11515fdf15)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]]
+2019-05-31 09:11:06,791  INFO [main] HomePage:34 - Clicked on: [[ChromeDriver: chrome on XP (3bb8c1faececd55e63a1ad11515fdf15)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]]
+2019-05-31 09:11:06,792  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.linkText: Tags
+2019-05-31 09:11:06,823  INFO [main] AccountSettingPage:67 - Found Element By : By.linkText: Tags
+2019-05-31 09:11:06,824  INFO [main] AccountSettingPage:30 - Trying to click on: [[ChromeDriver: chrome on XP (3bb8c1faececd55e63a1ad11515fdf15)] -> link text: Tags]
+2019-05-31 09:11:10,053  INFO [main] AccountSettingPage:34 - Clicked on: [[ChromeDriver: chrome on XP (3bb8c1faececd55e63a1ad11515fdf15)] -> link text: Tags]
+2019-05-31 09:11:10,054  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.linkText: Add new Tag
+2019-05-31 09:11:10,093  INFO [main] AccountSettingPage:67 - Found Element By : By.linkText: Add new Tag
+2019-05-31 09:11:10,093  INFO [main] AccountSettingPage:30 - Trying to click on: [[ChromeDriver: chrome on XP (3bb8c1faececd55e63a1ad11515fdf15)] -> link text: Add new Tag]
+2019-05-31 09:11:10,171  INFO [main] AccountSettingPage:34 - Clicked on: [[ChromeDriver: chrome on XP (3bb8c1faececd55e63a1ad11515fdf15)] -> link text: Add new Tag]
+2019-05-31 09:11:10,172  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: j_id177:tagNameDecorate:tagName
+2019-05-31 09:11:10,190  INFO [main] AccountSettingPage:67 - Found Element By : By.id: j_id177:tagNameDecorate:tagName
+2019-05-31 09:11:10,704  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: j_id177:tagNameDecorate:tagName
+2019-05-31 09:11:10,737  INFO [main] AccountSettingPage:67 - Found Element By : By.id: j_id177:tagNameDecorate:tagName
+2019-05-31 09:11:11,257  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: j_id177:tagNameDecorate:tagName
+2019-05-31 09:11:11,267  INFO [main] AccountSettingPage:67 - Found Element By : By.id: j_id177:tagNameDecorate:tagName
+2019-05-31 09:11:11,280  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: j_id177:tagNameDecorate:tagName
+2019-05-31 09:11:11,292  INFO [main] AccountSettingPage:67 - Found Element By : By.id: j_id177:tagNameDecorate:tagName
+2019-05-31 09:11:11,334  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //input[@value="Save"]
+2019-05-31 09:11:11,352  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //input[@value="Save"]
+2019-05-31 09:11:11,352  INFO [main] AccountSettingPage:30 - Trying to click on: [[ChromeDriver: chrome on XP (3bb8c1faececd55e63a1ad11515fdf15)] -> xpath: //input[@value="Save"]]
+2019-05-31 09:11:11,405  INFO [main] AccountSettingPage:34 - Clicked on: [[ChromeDriver: chrome on XP (3bb8c1faececd55e63a1ad11515fdf15)] -> xpath: //input[@value="Save"]]
+2019-05-31 09:11:11,405  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //h2[@class='settings-page-header']
+2019-05-31 09:11:11,420  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //h2[@class='settings-page-header']
+2019-05-31 09:11:11,438  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //td[@class="list-column-left"]//a[contains(text(),'tom')]
+2019-05-31 09:11:12,021  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //td[@class="list-column-left"]//a[contains(text(),'tom')]
+2019-05-31 09:11:16,389  INFO [main] WebEventListener:14 - Before navigating to: 'https://padhake.capsulecrm.com/'
+2019-05-31 09:11:23,704  INFO [main] WebEventListener:18 - Navigated to:'https://padhake.capsulecrm.com/'
+2019-05-31 09:11:23,706  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: login:usernameDecorate:username
+2019-05-31 09:11:23,746  INFO [main] AccountSettingPage:67 - Found Element By : By.id: login:usernameDecorate:username
+2019-05-31 09:11:23,813  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: login:passwordDecorate:password
+2019-05-31 09:11:23,835  INFO [main] AccountSettingPage:67 - Found Element By : By.id: login:passwordDecorate:password
+2019-05-31 09:11:23,895  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.id: login:login
+2019-05-31 09:11:23,912  INFO [main] AccountSettingPage:67 - Found Element By : By.id: login:login
+2019-05-31 09:11:42,431  INFO [main] HomePage:63 - Trying to find Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div
+2019-05-31 09:11:42,449  INFO [main] HomePage:67 - Found Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div
+2019-05-31 09:11:42,449  INFO [main] HomePage:30 - Trying to click on: [[ChromeDriver: chrome on XP (a587625171fe501d559d8b89353a1d3f)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div]
+2019-05-31 09:11:42,523  INFO [main] HomePage:34 - Clicked on: [[ChromeDriver: chrome on XP (a587625171fe501d559d8b89353a1d3f)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div]
+2019-05-31 09:11:42,523  INFO [main] HomePage:63 - Trying to find Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]
+2019-05-31 09:11:42,545  INFO [main] HomePage:67 - Found Element By : By.xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]
+2019-05-31 09:11:42,546  INFO [main] HomePage:30 - Trying to click on: [[ChromeDriver: chrome on XP (a587625171fe501d559d8b89353a1d3f)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]]
+2019-05-31 09:11:54,818  INFO [main] HomePage:34 - Clicked on: [[ChromeDriver: chrome on XP (a587625171fe501d559d8b89353a1d3f)] -> xpath: //div[@class="nav-bar-section nav-bar-account"]/child::div//div[2]/a[2]]
+2019-05-31 09:11:54,821  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.linkText: Integrations
+2019-05-31 09:11:54,857  INFO [main] AccountSettingPage:67 - Found Element By : By.linkText: Integrations
+2019-05-31 09:11:54,857  INFO [main] AccountSettingPage:30 - Trying to click on: [[ChromeDriver: chrome on XP (a587625171fe501d559d8b89353a1d3f)] -> link text: Integrations]
+2019-05-31 09:11:58,252  INFO [main] AccountSettingPage:34 - Clicked on: [[ChromeDriver: chrome on XP (a587625171fe501d559d8b89353a1d3f)] -> link text: Integrations]
+2019-05-31 09:11:58,252  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //table[@class="recordList"]/tbody/tr/td/a
+2019-05-31 09:11:58,281  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //table[@class="recordList"]/tbody/tr/td/a
+2019-05-31 09:11:58,295  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //table[@class="recordList"]/tbody/tr/td/a
+2019-05-31 09:11:58,314  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //table[@class="recordList"]/tbody/tr/td/a
+2019-05-31 09:11:58,315  INFO [main] AccountSettingPage:63 - Trying to find Element By : By.xpath: //h2[@class='settings-page-header']
+2019-05-31 09:11:58,330  INFO [main] AccountSettingPage:67 - Found Element By : By.xpath: //h2[@class='settings-page-header']
+2019-05-31 09:11:59,392 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-05-31 09:11:59,392 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2019-05-31 09:11:59,392 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-05-31 09:11:59,392 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-05-31 09:11:59,392 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/parag/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-05-31 09:11:59,658 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-05-31 09:11:59,658 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2019-05-31 09:11:59,658 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-05-31 09:11:59,658 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-05-31 09:11:59,658 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/parag/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
